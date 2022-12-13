@@ -21,6 +21,7 @@ app.use(express.json());
 
 
 
+
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
